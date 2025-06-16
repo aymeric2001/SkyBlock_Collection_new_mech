@@ -16,7 +16,7 @@ The following settings are enabled by default
 Geodes can be created with packed ice and lava. Surrounding a 2x2x2 cube of packed ice with lava will start the conversion. The four lava on top of the packed ice cube must be source blocks, and the rest can be flowing as long as every exposed side of the packed ice is touching lava.
 
 ### Armor Chipping
-Hitting a mob wearing a chestplate can break the chestplate and drop one base material (e.g. diamond, netherite ingot, iron ingot)
+Hitting a mob wearing a chestplate can break the chestplate and drop one or two base material (e.g. diamond, netherite ingot, iron ingot)
 
 ### Armor Trim Gifts
 Armorers will gift armor trims based on the biome
@@ -50,7 +50,7 @@ Amethyst clusters placed on a sculk catalyst will drop as echo shards when a pla
 Guardians struck by lightning will convert into elder guardians
 
 ### Cats Gift Enchanted Golden Apples
-Cats will gift enchanted golden apples while sleeping
+Tamed cats will gift enchanted golden apples while sleeping
 
 ### Endermites Convert Cobblestone to End Stone
 Endermites can dig into cobblestone to convert it to end stone
@@ -174,7 +174,7 @@ Lava can be bought for 5 emeralds
 
 ###  Lava Bucket Gifts
 *in Standard SkyBlock, lava is in the starter chest*  
-Weaponsmiths will gift lava buckets
+Toolsmiths will gift lava buckets
 
 ### Nether Wart Bartering
 *gold block bartering is the default way to get nether wart*  
