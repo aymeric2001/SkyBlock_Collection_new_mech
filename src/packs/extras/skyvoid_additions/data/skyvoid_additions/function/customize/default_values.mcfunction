@@ -3,7 +3,7 @@
 # to switch a setting, change the last number in the line (0 = off, 1 = on)
 # settings are sorted alphabetically, the first word(s) usually describe what item or mob becomes obtainable
 
-tellraw @s {"text":"Open the file to modify default values","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"skyvoid_additions/data/skyvoid_additions/functions/customize/default_values","color":"gray","italic":true}]}}
+tellraw @s {text:"Open the file to modify default values",color:"aqua",hover_event:{action:"show_text",value:[{text:"skyvoid_additions/data/skyvoid_additions/functions/customize/default_values",color:"gray",italic:true}]}}
 
 # on by default
 execute unless score amethyst_geode_creation skyvoid_config matches 0..1 run scoreboard players set amethyst_geode_creation skyvoid_config 1
@@ -40,6 +40,7 @@ execute unless score trader_additions skyvoid_config matches 0..1 run scoreboard
 execute unless score traders_with_camels skyvoid_config matches 0..1 run scoreboard players set traders_with_camels skyvoid_config 1
 execute unless score trial_spawner_from_sculk skyvoid_config matches 0..1 run scoreboard players set trial_spawner_from_sculk skyvoid_config 1
 execute unless score vaults_from_ominous_raid_captains skyvoid_config matches 0..1 run scoreboard players set vaults_from_ominous_raid_captains skyvoid_config 1
+execute unless score more_discs_from_vaults skyvoid_config matches 0..1 run scoreboard players set more_discs_from_vaults skyvoid_config 1
 
 # off by default
 execute unless score allay_conversion skyvoid_config matches 0..1 run scoreboard players set allay_conversion skyvoid_config 0
